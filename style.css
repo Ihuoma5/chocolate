@@ -1,0 +1,174 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      background-color: whitesmoke;
+  }
+  header{
+    color:white;
+    text-align: center;
+    font-size: 0.7rem;
+    
+  }
+  section {
+      flex-basis: 57%;
+      margin-right: 10%;
+  }
+  .head{
+    background-color: maroon;
+    background-size: 0.7rem;
+  }
+   .logo{
+      /* border: 3px solid yellow; */
+      text-align: center;
+      cursor: pointer;
+  
+  }
+  .ul_header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+  }
+   li,a,.contact{
+     padding-right: 15px;
+     list-style-type: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #BF0000;
+    text-decoration: none;
+  }
+  .nav_link li{
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  .nav_link li a{
+    transition: all 0.3s ease 0s;
+  }
+  
+        .wrapper {
+          width: 80%;
+          margin: 0 auto;
+          padding: 1em;
+          display: flex;
+          flex-flow: row nowrap;
+          /* background-color: #D6E5FF; */
+        }
+        a:hover{
+          color:black;
+        }
+        .intro{
+          font-size: 1.5rem;
+          /* text-align: center; */
+          color:#BF0000;
+          display: flex;
+          flex-flow: column nowrap;
+          align-items: center;
+        }
+        
+        .contact{
+           border:3px groove #A8001F;
+           border-radius: 30px;
+           width:7rem;
+           /* background-color:red; */
+           margin-right: 6rem;
+           text-align: center;
+           font-size: 1rem;
+          font-weight: bold;
+          text-decoration: none;
+          display: flex;
+          justify-content: center;
+          padding: 0.5rem;
+          cursor: pointer;
+          transition: all 0.3s ease 0s;
+          align-items: center;
+        }
+        .message{
+          /* border:3px groove orange; */
+          text-align: center;
+          display: flex;
+          flex-flow: column nowrap;
+          align-items: center;
+        }
+        .about{
+          text-align: center;
+          display: flex;
+          flex-flow: column nowrap;
+          align-items: center;
+        }
+        .about ul{
+          list-style-type: none;
+          display: flex;
+        }
+        .call{
+          display: block;
+        
+        }
+        legend{
+          /* border: 3px solid red; */
+          font-weight: bold;
+          margin-top: 1.5rem;
+          margin-bottom: 1rem;
+          display: block;
+          font-size: 2rem;
+        }
+        label{
+          padding: 0.3rem;
+          border: 0 0 1px 0;
+        }
+        input, textarea{
+          border: 1px;
+          display: block;
+          margin-bottom: 2rem;
+          width: 20rem;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 1rem;
+          padding:0 1rem;
+          border-radius: 10px;
+        }
+        textarea{
+          /* border: 2px solid red; */
+          height: 10rem;
+          padding: 2rem;
+        }
+       
+        /* .profile{
+          margin: 0 300px;
+          text-align: center;
+          height: 400px;
+          font-size: 25px;
+          /* width: 500px; */
+        
+        
+       .number{
+         border: 2px solid green;
+         background-color: #0D8B34;
+         color: white;
+         border: none;
+       }
+       .home{
+         display: flex;
+         flex-flow: column;
+         justify-content: center;
+         align-items: center;
+       }
+       .reagents .reagents_li{
+         color: #000;
+         text-align: center;
+         font-size: 1.5rem;
+       }
+       .reagents_li{
+         display: flex;
+         flex-flow: column;
+       }
+       /* .sub_menu_1{ */
+         /* display: none; */
+       /* } */
+       
+  
+  
+         
